@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "kind": "ocr",
+  "block_version": "0.1.0",
+  "maintained_by": "HackInvent",
+  "source": {
+    "algorithm": "block-source-v1",
+    "sha256": "88c0042ef903fc3161fd5ffc3b677ec9147f6bf75103f512490def1286531ca3"
+  },
+  "bloxsmith_compatibility": [
+    "1.0.9"
+  ],
+  "tested_with_bloxsmith": "1.0.9",
+  "validations": [
+    {
+      "bloxsmith_version": "1.0.9",
+      "framework_commit": "f1a87f6369d2acfb8be41d23ea849384cd461c86",
+      "framework_source_sha256": "66e36a13fd9a23a0a0576ec81552d6e479671db6db9b8692cc7486c5aac4f3b8",
+      "tested_at": "2026-10-04T11:59:24.009522+00:00",
+      "status": "passed",
+      "installation_mode": "bundled",
+      "suite_paths": [
+        "tests/F5.01_ocr.py",
+        "tests/F5.02_ocr_runtime.py",
+        "tests/F8.01_ocr_ui.py"
+      ],
+      "suite_count": 3,
+      "report_sha256": "5ae9047eaa06a5f48ca2024fe1c70750f92eeb9aab149eab136b9e48dde0eb49"
+    }
+  ]
+}

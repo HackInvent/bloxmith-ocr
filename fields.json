@@ -1,0 +1,82 @@
+[
+  {
+    "key": "allowed_root",
+    "type": "directory",
+    "help": "Read boundary. Empty uses the runtime working directory; input files are never modified."
+  },
+  {
+    "key": "languages",
+    "type": "json",
+    "rows": 2,
+    "help": "Installed Tesseract language codes, for example [\"eng\", \"fra\"]. No automatic model download."
+  },
+  {
+    "key": "confidence_threshold",
+    "type": "integer",
+    "min": 0,
+    "max": 100,
+    "help": "Words below this engine score are flagged for review, not silently discarded. This is not a probability."
+  },
+  {
+    "key": "first_page",
+    "type": "integer",
+    "min": 1,
+    "max": 10000,
+    "help": "First PDF page, starting at 1. Images contain one page."
+  },
+  {
+    "key": "last_page",
+    "type": "integer",
+    "min": 0,
+    "max": 10000,
+    "help": "Last PDF page; 0 means the last available page, within max_pages."
+  },
+  {
+    "key": "dpi",
+    "type": "integer",
+    "min": 72,
+    "max": 400,
+    "advanced": true,
+    "help": "PDF rasterization resolution. Rendered dimensions are capped at 4096 pixels per side."
+  },
+  {
+    "key": "page_segmentation",
+    "type": "integer",
+    "min": 3,
+    "max": 13,
+    "advanced": true,
+    "help": "Tesseract PSM: 3 automatic, 6 uniform text block, 11 sparse text. No orientation detection in this version."
+  },
+  {
+    "key": "max_pages",
+    "type": "integer",
+    "min": 1,
+    "max": 100,
+    "advanced": true,
+    "help": "Maximum selected PDF pages; reject oversized ranges, never truncate silently."
+  },
+  {
+    "key": "max_bytes",
+    "type": "integer",
+    "min": 1024,
+    "max": 52428800,
+    "advanced": true,
+    "help": "Maximum source file bytes."
+  },
+  {
+    "key": "max_characters",
+    "type": "integer",
+    "min": 1,
+    "max": 1000000,
+    "advanced": true,
+    "help": "Maximum recognized characters across all selected pages."
+  },
+  {
+    "key": "timeout_sec",
+    "type": "integer",
+    "min": 1,
+    "max": 600,
+    "advanced": true,
+    "help": "One total deadline including PDF rendering and recognition."
+  }
+]

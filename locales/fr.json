@@ -1,0 +1,23 @@
+{
+  "block.ocr.advanced": "Réglages avancés",
+  "block.ocr.apply_hint": "Modifications locales jusqu’à Appliquer. Redémarrez un Run chargé pour utiliser les nouveaux réglages.",
+  "block.ocr.last_state": "Dernier résultat",
+  "block.ocr.invalid_json": "Saisissez un JSON valide avant d’appliquer.",
+  "block.ocr.invalid_number": "Vérifiez la valeur numérique et ses limites.",
+  "block.ocr.saved": "Paramètres appliqués.",
+  "block.ocr.model.title": "OCR",
+  "block.ocr.model.description": "Reconnaître le texte des images et pages PDF locales, avec positions, confiance et points à vérifier.",
+  "block.ocr.role": "Reconnaissance locale de documents",
+  "block.ocr.error": "Échec OCR : {detail}",
+  "block.ocr.help_allowed_root": "Périmètre de lecture. Vide : répertoire du runtime ; les originaux restent intacts.",
+  "block.ocr.help_languages": "Codes des langues Tesseract installées, par exemple [\"fra\", \"eng\"]. Aucun téléchargement automatique.",
+  "block.ocr.help_confidence_threshold": "Les mots sous ce score du moteur sont signalés, pas supprimés. Ce score n’est pas une probabilité.",
+  "block.ocr.help_first_page": "Première page PDF, à partir de 1. Une image contient une page.",
+  "block.ocr.help_last_page": "Dernière page PDF ; 0 désigne la dernière disponible, dans la limite max_pages.",
+  "block.ocr.help_dpi": "Résolution de rendu PDF. Chaque côté est limité à 4096 pixels.",
+  "block.ocr.help_page_segmentation": "PSM Tesseract : 3 automatique, 6 bloc uniforme, 11 texte dispersé. Pas de détection d’orientation dans cette version.",
+  "block.ocr.help_max_pages": "Nombre maximal de pages PDF sélectionnées ; un dépassement est refusé, jamais tronqué en silence.",
+  "block.ocr.help_max_bytes": "Taille maximale du fichier source, en octets.",
+  "block.ocr.help_max_characters": "Nombre maximal de caractères reconnus sur toutes les pages sélectionnées.",
+  "block.ocr.help_timeout_sec": "Délai global, rendu PDF et reconnaissance compris."
+}

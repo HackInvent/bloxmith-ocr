@@ -1,0 +1,23 @@
+{
+  "block.ocr.advanced": "Advanced settings",
+  "block.ocr.apply_hint": "Changes remain local until Apply. Restart a loaded Run to use new settings.",
+  "block.ocr.last_state": "Last result",
+  "block.ocr.invalid_json": "Enter valid JSON before applying.",
+  "block.ocr.invalid_number": "Check the numeric value and its limits.",
+  "block.ocr.saved": "Settings applied.",
+  "block.ocr.model.title": "OCR",
+  "block.ocr.model.description": "Recognize text from local images and PDF pages, with word positions, confidence and explicit review issues.",
+  "block.ocr.role": "Local document recognition",
+  "block.ocr.error": "OCR failed: {detail}",
+  "block.ocr.help_allowed_root": "Read boundary. Empty uses the runtime working directory; input files are never modified.",
+  "block.ocr.help_languages": "Installed Tesseract language codes, for example [\"eng\", \"fra\"]. No automatic model download.",
+  "block.ocr.help_confidence_threshold": "Words below this engine score are flagged for review, not silently discarded. This is not a probability.",
+  "block.ocr.help_first_page": "First PDF page, starting at 1. Images contain one page.",
+  "block.ocr.help_last_page": "Last PDF page; 0 means the last available page, within max_pages.",
+  "block.ocr.help_dpi": "PDF rasterization resolution. Rendered dimensions are capped at 4096 pixels per side.",
+  "block.ocr.help_page_segmentation": "Tesseract PSM: 3 automatic, 6 uniform text block, 11 sparse text. No orientation detection in this version.",
+  "block.ocr.help_max_pages": "Maximum selected PDF pages; reject oversized ranges, never truncate silently.",
+  "block.ocr.help_max_bytes": "Maximum source file bytes.",
+  "block.ocr.help_max_characters": "Maximum recognized characters across all selected pages.",
+  "block.ocr.help_timeout_sec": "One total deadline including PDF rendering and recognition."
+}
